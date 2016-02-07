@@ -1,0 +1,49 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]--><!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]--><!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]--><!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]--><!--[if (gt IE 9)|!(IE)]><!--> <html lang="ja" class="no-js"> <!--<![endif]--><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>FullManualCommander</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+	<link rel="stylesheet" href="css/style.css?v=2">
+
+	<script src="js/libs/jquery-1.6.1.js"></script>
+	<script src="js/Common.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/GameObj.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/MapObj.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Effect.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Info.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/GazePoint.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/CommandManager.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Char.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Tank.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/BgFill.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/BgMap.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Button.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/editor/EditManager.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/editor/MapChipPanel.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/editor/EnemyPanel.js"type="text/javascript" charset="utf-8"></script>
+	<script src="js/Main.js"type="text/javascript" charset="utf-8"></script>
+</head>
+<body onload="UserOnLoad()" onselectstart="return false">
+		<br><br><br><br><br><br><br><br>
+		<canvas id="mainCanvas"></canvas>
+		<canvas id="toolCanvas" class="hidden"></canvas>
+		<br>
+		<span id="fpsDisp" >fps</span><br>
+		<span id="posDisp" >pos</span><br>
+		<span id="debug" >debug</span><br>
+		<canvas id="workCanvas" class="hidden"></canvas><br>
+
+
+	<!--[if lt IE 7 ]>
+	<script src="js/libs/dd_belatedpng.js"></script>
+	<script> DD_belatedPNG.fix('img, .png_bg');</script>
+	<![endif]--></body>
+</html>

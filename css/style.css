@@ -1,0 +1,21 @@
+.hidden { display: none; visibility: hidden; }
+
+#mainCanvas {
+	position:absolute;
+	left:50%;
+	margin-left:-400px;
+	width: 800px;
+	height:600px;
+	z-index:0;
+}
+
+
+#toolCanvas {
+	position:absolute;
+	left:50%;
+	margin-left:200px;
+	width: 200px;
+	height:600px;
+	z-index:1;
+}
+
